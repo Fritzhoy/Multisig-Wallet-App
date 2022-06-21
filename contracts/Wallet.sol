@@ -1,4 +1,4 @@
-pragma solidity 0.6.0;
+pragma solidity 0.8.5;
 //use for allow to return a struct from a function
 pragma experimental ABIEncoderV2;  
 
@@ -62,7 +62,7 @@ pragma experimental ABIEncoderV2;
 //Check if the sender of the transaction has already approve the transaction, avoid to approve transaction twice
     function approveTransfer(uint id) external onlyApprover {
         require(transfers[id].sent == false, 'transfer has already been sent');
-        require(approvals[msg.sender][id] == false, 'cannot approve transfer');
+        require(approvals[msg.sender][id] == false, 'cannot approve transfer twice');
 
 //Set the approval of this address to true;
 //increment the transfer approval 

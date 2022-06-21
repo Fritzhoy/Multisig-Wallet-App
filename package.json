@@ -1,0 +1,27 @@
+{
+  "name": "eattheblocksexercise",
+  "version": "1.0.0",
+  "description": "Project from EatTheBlocks - Solidity Course",
+  "main": "truffle-config.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Fritzhoy/EatTheBlocksExercise.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Fritzhoy/EatTheBlocksExercise/issues"
+  },
+  "homepage": "https://github.com/Fritzhoy/EatTheBlocksExercise#readme",
+  "dependencies": {
+    "@openzeppelin/test-helpers": "^0.5.15",
+    "tree": "^0.1.3"
+  }
+}
