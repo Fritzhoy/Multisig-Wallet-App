@@ -1,13 +1,12 @@
-# EatTheBlocksExercise
-Project from EatTheBlocks as part of formation "6 figure Blockchain Developer"
+# Multisig Wallet - Project
+Project Multisig Wallet as part of formation "6 figure Blockchain Developer - EatTheBlocks"
 
 
-## Frist Part - "Mutising Wallet Project Smart Contract"
-Solidity Smart Contract
-Truffle/Mocha as framework for unit test 
-Using Local network developer from Truffle
-
-Magration files using the truffle compile
+## Frist Part - "Smart Contract"
+Solidity Smart Contract created using REMIX GUI
+Truffle/Mocha as framework for unit test writed '.js'
+Using local network developer from Truffle
+Migration files writed in '.js' using the enviroment of truffle compile
 
 ## Second Part - "Mutising Wallet Project Front End"
 
