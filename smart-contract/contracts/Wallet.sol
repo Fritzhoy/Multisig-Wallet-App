@@ -1,3 +1,5 @@
+//SPDX-License-Identifier: <SPDX-License>
+
 pragma solidity 0.8.5;
 //use for allow to return a struct from a function
 pragma experimental ABIEncoderV2;  
@@ -24,7 +26,7 @@ pragma experimental ABIEncoderV2;
 //neasting mapping with the Id tranfer => bool value)
     mapping(address => mapping(uint => bool)) public approvals; 
 
-    constructor(address [] memory _approvers, uint _quorum) public {
+    constructor(address [] memory _approvers, uint _quorum) {
         approvers = _approvers;
         quorum = _quorum;   
     }
