@@ -1,4 +1,4 @@
-//SPDX-License-Identifier: <SPDX-License>
+// SPDX-License-Identifier: Apache-2.0
 
 pragma solidity 0.8.5;
 //use for allow to return a struct from a function
